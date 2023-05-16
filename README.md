@@ -1,5 +1,4 @@
-# micro_arch_1
-
+# MicroServiceArchitecture
 - java 17  
 - springboot 3.0.6  
 - gradle  
