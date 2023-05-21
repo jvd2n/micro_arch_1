@@ -14,3 +14,12 @@ spring:
           filters:
             - AddRequestHeader=second-request, second-request-header
             - AddResponseHeader=second-response, second-response-header
+
+eureka:
+  instance:
+    instance-id: api-gateway
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
